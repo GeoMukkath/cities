@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-.container{
+.container-fluid{
     position: absolute;
-    top: 700px;
+    top: 680px;
+    width: 100%;
+    margin: auto;
 }
 
 h2{
     font-size: 90px;
     font-family: 'Roboto', sans-serif;
+}
+
+img{
+    height: 470px;
 }
