@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+#particles-js {
+    position: absolute;
+    width: 99.2%;
+    height: 680px;
+    background-image: url(https://images.pexels.com/photos/879356/pexels-photo-879356.jpeg?cs=srgb&dl=pexels-david-besh-879356.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: 0;
+  }
+
+  app-navbar{
+      z-index: 100;
+  }
+
+  h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+  }

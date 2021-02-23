@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Source+Sans+Pro:wght@200&display=swap');
+.carousel{
+    position: relative;
+    top: 1500px;
+}
+
+h4{
+    color: white;
+    z-index: 200;
+    bottom: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+q, p{
+    font-family: 'Calligraffitti', cursive;
+}
