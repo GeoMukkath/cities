@@ -13,11 +13,13 @@
 h1{
     font-size: 90px;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
     h1{
-        font-size: 40px;
+        font-size: 25px;
+        
     }
     #pipe{
         height: 300px;
@@ -28,4 +30,16 @@ h1{
     height: 700px;
     width: 100%;
     border-radius: 60%;
+}
+
+.intro{
+    background-color: black;
+}
+
+.woman, .man1, .man2, .man3, .woman2{
+    height: 250px;
+}
+
+.man1, .man3, .woman2{
+    transform: scaleX(-1);
 }
