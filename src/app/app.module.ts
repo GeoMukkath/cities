@@ -9,6 +9,7 @@ import { SliderComponent } from './slider/slider.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { DescriptionComponent } from './components/description/description.component';
 import { ScullyLibModule } from '@scullyio/ng-lib';
+import { VideoScrollComponent } from './video-scroll/video-scroll.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
     NavbarComponent,
     SliderComponent,
     IntroComponent,
-    DescriptionComponent
+    DescriptionComponent,
+    VideoScrollComponent
   ],
   imports: [
     BrowserModule,

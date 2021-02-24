@@ -1,0 +1,64 @@
+.container-fluid{
+    height: 13000px;
+}
+video {
+    position: fixed;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+  }
+  
+  section {
+    z-index: 1;
+    position: relative;
+  }
+
+#set-height{
+    display: block;
+}
+
+.content {
+    position: sticky;
+    width: 100%;
+    top: 33.3%;
+  }
+
+  h3 {
+    padding: 10px 15px;
+    font-size: 3em;
+    background-color: white;
+    display: inline-block;
+    margin: 0;
+  }
+
+  p {
+    padding: 10px 15px;
+    font-size: 1.5em;
+    color: white;
+    opacity: 0.8;
+    padding-left: 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+  h3{
+      font-size: 1em;
+  }
+
+  p{
+      font-size: 0.6em;
+  }
+}
+
+  section {
+    height: 8200px;
+  }
+
+
+  video {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+  }
+  
