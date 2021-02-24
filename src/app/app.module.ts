@@ -7,6 +7,7 @@ import { ParticleBackgroundComponent } from './particle-background/particle-back
 import { NavbarComponent } from './navbar/navbar.component';
 import { SliderComponent } from './slider/slider.component';
 import { IntroComponent } from './components/intro/intro.component';
+import { DescriptionComponent } from './components/description/description.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { IntroComponent } from './components/intro/intro.component';
     ParticleBackgroundComponent,
     NavbarComponent,
     SliderComponent,
-    IntroComponent
+    IntroComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+.container{
+    position: absolute;
+    top: 2000px;
+}
+
+#pipe{
+    height: 600px;
+    width: 100%;
+    transform: rotate(90deg);
+}
+
+h1{
+    font-size: 90px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 40px;
+    }
+    #pipe{
+        height: 300px;
+    }
+}
+
+#buildings{
+    height: 700px;
+    width: 100%;
+    border-radius: 60%;
+}
