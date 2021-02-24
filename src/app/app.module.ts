@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SliderComponent } from './slider/slider.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { DescriptionComponent } from './components/description/description.component';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DescriptionComponent } from './components/description/description.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ParticlesModule
+    ParticlesModule,
+    ScullyLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]
