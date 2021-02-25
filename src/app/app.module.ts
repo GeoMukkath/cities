@@ -10,6 +10,8 @@ import { IntroComponent } from './components/intro/intro.component';
 import { DescriptionComponent } from './components/description/description.component';
 import { ScullyLibModule } from '@scullyio/ng-lib';
 import { VideoScrollComponent } from './video-scroll/video-scroll.component';
+import { ImageGridComponent } from './components/image-grid/image-grid.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { VideoScrollComponent } from './video-scroll/video-scroll.component';
     SliderComponent,
     IntroComponent,
     DescriptionComponent,
-    VideoScrollComponent
+    VideoScrollComponent,
+    ImageGridComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
