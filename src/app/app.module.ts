@@ -12,6 +12,8 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
 import { VideoScrollComponent } from './video-scroll/video-scroll.component';
 import { ImageGridComponent } from './components/image-grid/image-grid.component';
 import { FooterComponent } from './footer/footer.component';
+import { ChartsModule } from 'ng2-charts';
+import { StatsComponent } from './components/stats/stats.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +25,15 @@ import { FooterComponent } from './footer/footer.component';
     DescriptionComponent,
     VideoScrollComponent,
     ImageGridComponent,
-    FooterComponent
+    FooterComponent,
+    StatsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ParticlesModule,
-    ScullyLibModule
+    ScullyLibModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

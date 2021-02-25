@@ -1,0 +1,21 @@
+<app-navbar></app-navbar>
+<div class="container pt-5 ">
+    <h1 class="pt-5">Population</h1>
+    <div class="bar-chart" style="display: block">
+        <canvas baseChart
+                [datasets]="barChartData"
+                [labels]="barChartLabels"
+                [options]="barChartOptions"
+                [legend]="barChartLegend"
+                [chartType]="barChartType">
+        </canvas>
+    </div>
+    <h1 class="area">Area </h1>
+    <div class="radar-chart" style="display: block">
+        <canvas baseChart
+                [datasets]="radarChartData"
+                [labels]="radarChartLabels"
+                [chartType]="radarChartType">
+        </canvas>
+    </div>
+</div>

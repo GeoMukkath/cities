@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.container{
+    height: 700px;
+}
+.bar-chart{
+    height: 300px;
+}
+
+.radar-chart{
+    position: relative;
+    top: 500px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.area{
+    position: absolute;
+    top: 880px;
+    font-family: 'Roboto', sans-serif;
+}
