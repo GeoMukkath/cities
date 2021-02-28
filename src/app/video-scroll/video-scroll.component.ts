@@ -15,7 +15,7 @@ export class VideoScrollComponent implements OnInit {
   }
 
   frameNumber = 0; // start video at frame 0
-  playbackConst = 800; // speed of video. lower is faster
+  playbackConst = 900; // speed of video. lower is faster
 
   ngAfterContentInit(): void {
     window.requestAnimationFrame(this.scrollPlay.bind(this));
