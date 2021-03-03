@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { ParticlesModule } from 'angular-particle';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +14,7 @@ import { ImageGridComponent } from './components/image-grid/image-grid.component
 import { FooterComponent } from './footer/footer.component';
 import { ChartsModule } from 'ng2-charts';
 import { StatsComponent } from './components/stats/stats.component';
+import { LandmarksComponent } from './landmarks/landmarks.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { StatsComponent } from './components/stats/stats.component';
     VideoScrollComponent,
     ImageGridComponent,
     FooterComponent,
-    StatsComponent
+    StatsComponent,
+    LandmarksComponent
   ],
   imports: [
     BrowserModule,
@@ -34,6 +36,9 @@ import { StatsComponent } from './components/stats/stats.component';
     ParticlesModule,
     ScullyLibModule,
     ChartsModule
+  ],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
   ],
   providers: [],
   bootstrap: [AppComponent]
